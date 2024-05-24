@@ -39,6 +39,7 @@ Requires:	kf6-kconfigwidgets >= %{version}
 Requires:	kf6-ki18n >= %{version}
 Requires:	kf6-kwidgetsaddons >= %{version}
 Requires:	kf6-sonnet >= %{version}
+Obsoletes:	kf5-%{kfname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		qt6dir		%{_libdir}/qt6
@@ -55,6 +56,7 @@ Requires:	%{name} = %{version}-%{release}
 Requires:	Qt6Widgets-devel >= %{qtver}
 Requires:	kf6-ki18n-devel >= %{version}
 Requires:	kf6-sonnet-devel >= %{version}
+Obsoletes:	kf5-%{kfname}-devel < %{version}
 
 %description devel
 Header files for %{kfname} development.
