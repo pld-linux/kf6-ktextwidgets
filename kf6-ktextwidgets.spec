@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.13
+%define		kdeframever	6.14
 %define		qtver		5.15.2
 %define		kfname		ktextwidgets
 
 Summary:	Text editing widgets
 Name:		kf6-%{kfname}
-Version:	6.13.0
+Version:	6.14.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	1e8f264d42649f8a3288742ed2a757a1
+# Source0-md5:	0ce0016f7fdebd1b713dd65718e35c6e
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6TextToSpeech-devel >= %{qtver}
