@@ -49,6 +49,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KTextWidgets provides widgets for displaying and editing text. It
 supports rich text as well as plain text.
 
+%description -l pl.UTF-8
+KTextWidgets dostarcza widżetów do wyświetlania i edycji tekstu.
+Wspiera zarówno wzbogacony tekst i jak i zwykły.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
